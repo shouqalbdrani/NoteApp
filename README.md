@@ -1,7 +1,5 @@
 # NoteApp
 
-# NoteApp
-
 NoteApp is a simple Android application that allows users to create, view, and edit notes. The app has two main screens: the **Main Screen** displaying a list of notes and the **Note Editor Screen** for creating and editing individual notes.
 
 ## Features
