@@ -1,0 +1,7 @@
+<resources>
+    <string name="note_title">Title</string>
+    <string name="note_title_description">Note Title</string>
+    <string name="note_content">Write your thoughts</string>
+    <string name="note_content_description">Note Content Preview</string>
+    <string name="new_note_button_text">New Note</string> <!-- This is correct -->
+</resources>
