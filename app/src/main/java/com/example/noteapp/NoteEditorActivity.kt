@@ -29,6 +29,8 @@ class NoteEditorActivity : ComponentActivity() {
 
         characterCountTextView.text = "Character count: 0"
 
+        // add TextWatcher to EditText to update the character count 
+
         noteContentEditText.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
@@ -38,6 +40,7 @@ class NoteEditorActivity : ComponentActivity() {
             }
         })
 
+        // check if the save button clicked that both title and content are filled
         saveButton.setOnClickListener {
             val noteTitle = noteTitleEditText.text.toString().trim()
             val noteContent = noteContentEditText.text.toString().trim()
