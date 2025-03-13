@@ -29,3 +29,5 @@ NoteApp is a simple Android application that allows users to create, view, and e
 ![Screenshot 2025-03-13 053309](https://github.com/user-attachments/assets/d586c6ed-c719-432c-b472-742db416f75d)
 ![Screenshot 2025-03-13 053401](https://github.com/user-attachments/assets/94c4c5cb-d853-47e7-9ba4-31577ae300fa)
 ![Screenshot 2025-03-13 053408](https://github.com/user-attachments/assets/e7e4eae7-b327-478c-9086-49047cda75cf)
+![Screenshot 2025-03-13 054850](https://github.com/user-attachments/assets/acd25bfe-1085-4614-92f9-6abfe57a2f5f)
+
