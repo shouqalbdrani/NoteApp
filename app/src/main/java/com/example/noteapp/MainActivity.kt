@@ -13,7 +13,7 @@ import com.example.noteapp.model.Note
 
 class MainActivity : ComponentActivity() {
 
-
+// display the ntes usein NotesAdapter 
     private lateinit var notesAdapter: NotesAdapter
     private val notesList = mutableListOf(
         Note.Example1,
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
         Note.Example5,
         Note.Example6
     )
-
+ // handle result from NoteEditorActivity if the result ok then will add new notes to the list
     private val noteEditorLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
             if (result.resultCode == RESULT_OK) {
@@ -41,6 +41,9 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+    //The RecyclerView is initialized with NotesAdapter and a LinearLayoutManager for list display.
+// if the "New Note" button is clicked, it launches the NoteEditorActivity using noteEditorLauncher.
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
